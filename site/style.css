@@ -1,0 +1,304 @@
+/* GENERAL STYLES */
+@font-face {
+    font-family: Eurostile;
+    src: url('graphics/Eurostile.ttf');
+}
+body {
+    max-width:980px;
+    min-width: 980px;
+    margin: auto;
+    display: block;
+    background-color: black;
+    color: white;
+    font-family: helvetica;
+    font-size: 15px;
+}
+/* HEADER, NAV STYLES */
+header {
+    font-family: Eurostile, sans-serif;
+}
+#networking {
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -90px;
+    margin-right: 10px;
+}
+.networkingIcons {
+    width: 25px;
+    height: 25px;
+}
+#logo #staticlogo, #logo:hover #animatedlogo {
+    width: 100%;
+    display: inline;
+    cursor: pointer;
+}
+#logo #animatedlogo, #logo:hover #staticlogo {
+    display: none;
+}
+#logo {
+    height: 160px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -190px;
+    margin-bottom: 40px;
+    z-index: 1;
+}
+nav {
+    width: 100%;
+    height: 30px;
+    margin-top: 100px;
+    margin-bottom: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+nav span {
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav #reel {
+    margin-left: 30px;
+}
+nav #about, #video {
+    margin-left: 40px;
+}
+nav #photo {
+    margin-left: 330px;
+}
+nav #resume, #contact {
+    margin-left: 25px;
+}
+nav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: inherit;
+}
+nav:hover span {
+    text-shadow: 0 0 2px #fff;
+    color: rgba(255,255,255,0);
+}
+nav span:hover {
+    text-shadow: 0 0 0px #000;
+    color: #FFF;
+}
+/* FOOTER STYLES */
+footer {
+    font-family: Eurostile, sans-serif;
+    clear: both;
+    padding-top: 10px;
+}
+#legalAboutSpan {
+    float: right;
+    margin-right: 28%;
+}
+#legalAboutSpan a {
+    text-decoration: underline;
+    color: white;
+}
+#creatorSpan {
+    float: right;
+}
+/* MAIN */
+main {
+    min-height: 520px;
+    color: #CCC;
+}
+/* INDEX PAGE */
+#feedHeader {
+    margin-top: 60px;
+    text-decoration: underline;
+}
+.fb-like-box {
+    border: 1px solid #505050;
+    width: 975px;
+    height: 490px;
+    margin: auto;
+    display: block;
+}
+/* REEL PAGE */
+#reelVideo {
+    border: 1px solid #303030;
+    width: 980px;
+    height: 540px;
+    max-width:980px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#thumbnailContainer {
+    height: 120px;
+    max-width:980px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-left: 4px;
+}
+.thumbnailImages, .thumbnailOverlays {
+    width: 16%;
+    max-width: 314px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.thumbnailLinks .thumbnailImages, .thumbnailLinks:hover .thumbnailOverlays {
+    display: inline;
+    cursor: pointer;
+}
+.thumbnailLinks .thumbnailOverlays, .thumbnailLinks:hover .thumbnailImages {
+    display: none;
+}
+/* ABOUT PAGE */
+#aboutSection {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 96%;
+    font-size: 18px;
+}
+#aboutDesc {
+    float: right;
+    width: 48%;
+    padding-top: 20px;
+}
+#aboutPic img {
+    float: left;
+    max-width: 51%;
+}
+/* VIDEO PAGE */
+#vidLeftCol {
+    float: left;
+    width: 49%;
+}
+#vidRightCol {
+    float: right;
+    width: 49%;
+}
+.vidContainer {
+    margin-top: 15px;
+    border: 1px solid #303030;
+    height: 530px;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .vidContainer {
+        margin-top: 15px;
+        border: 1px solid #303030;
+        height: 550px;
+    }
+}
+.vidContainer:hover {
+    border: 1px solid yellow;
+}
+.vidContainer iframe {
+    width: 100%;
+    height: 315px;
+    border: none;
+}
+.vidImagePlaceholder {
+    width: 100%;
+    height: 315px;
+}
+.vidTitle {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10px;
+    padding-left: 10px;
+}
+.vidTitleLink {
+    color: white;
+}
+.vidExpl {
+    color: gray;
+    margin: 0 auto;
+    margin-top: -5px;
+    padding-left: 3px;
+}
+.projectStatus {
+    color: yellow;
+    font-weight: normal;
+    margin-left: 8px;
+}
+.vidDesc {
+    font-size: 14px;
+}
+.vidDesc p {
+    padding: 5px;
+}
+.projectUpdates {
+    color: yellow;
+    font-weight: normal;
+    padding-left: 3px;
+    margin-top: -3px;
+}
+/* PHOTO PAGE */
+#photoBanner {
+    display: block;
+    margin: auto;
+    max-width: 980px;
+    width: 99%;
+}
+/* RESUME PAGE */
+.resumeContainer {
+    margin-left: auto;
+    margin-right: auto;
+    max-width:980px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.resumeSection {
+    max-width: 100%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    display: block;
+}
+.resumeLinksList {
+    text-align: center;
+    font-size: 21px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.resumeLinks {
+    text-decoration: none;
+    color: white;
+}
+.resumeLinks:hover {
+    color: yellow;
+}
+/* CONTACT PAGE */
+#contactBubble {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    display: block;
+    width: 530px;
+    font-size: 18px;
+}
+#emailBubble {
+    float: right;
+    margin-top: 17px;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    background-color: #555;
+}
+#contactBubble a {
+    float: left;
+    text-decoration: none;
+    color: white;
+}
+/* LEGAL PAGE */
+h2 {
+    text-align: center;
+}
+/* ABOUT SITE PAGE */
+#mailtoCreator {
+    text-decoration: underline;
+    color: white;
+}

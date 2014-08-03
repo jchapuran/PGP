@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	useLargeImages="2048"
+	useSmallImages="800"
+	galleryTitle="Demo"
+
+>
+  <image imageURL="images/IMG_3564.jpg"
+	thumbURL="thumbs/IMG_3564.jpg"
+	linkURL="images/IMG_3564.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/jchapuran/Downloads/IMG_3564.JPG">
+    <title><![CDATA[IMG_3564]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_9010.jpg"
+	thumbURL="thumbs/IMG_9010.jpg"
+	linkURL="images/IMG_9010.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/jchapuran/Downloads/IMG_9010.jpg">
+    <title><![CDATA[IMG_9010]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_9577.jpg"
+	thumbURL="thumbs/IMG_9577.jpg"
+	linkURL="images/IMG_9577.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/jchapuran/Downloads/IMG_9577.JPG">
+    <title><![CDATA[IMG_9577]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_6520.jpg"
+	thumbURL="thumbs/IMG_6520.jpg"
+	linkURL="images/IMG_6520.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/jchapuran/Downloads/IMG_6520.JPG">
+    <title><![CDATA[IMG_6520]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>
